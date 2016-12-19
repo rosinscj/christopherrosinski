@@ -204,8 +204,10 @@ span.name-text{
     margin: 0;
     padding: 40px;
 }
-.foot>img{
+.foot >img, .foot a>img{
     max-width: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 img.cr{
     max-width: 40px;
