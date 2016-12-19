@@ -52,11 +52,10 @@ h1{
     text-transform: uppercase;
     color: white;
     font-weight: bold;
-    font-size: 45px;
+    font-size: 40px;
     width: 50%;
 }
 .block-float >span.blue{
-    text-transform: lowercase;
     font-family: serif;
     font-style: italic;
     word-spacing: 2px;
@@ -80,7 +79,7 @@ span.blue{
 span.name-text{
     text-align: center;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     letter-spacing: 3px;
     word-spacing: 4px;
     font-weight: normal;
