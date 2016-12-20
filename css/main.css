@@ -1,5 +1,6 @@
 body { 
-    background-image: url('../img/pictures/main_image.png');
+    background-image: url('../img/pictures/main_image.png'),
+                      linear-gradient(to right, #514b4c 0%, #5d5757 50%, #625d5d 75%, #504b4b 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
