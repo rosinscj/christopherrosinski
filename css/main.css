@@ -128,16 +128,43 @@ span.name-text{
     max-width: 100%;
 }
 .icons-for-days{
+    display: flex;
+    justify-content: center;
     text-align: center;
     width: 100%;
     margin: 0 auto; 
     padding-bottom:50px;
 }
-.icons-for-days>img{
-    width: 75px;
+.icons-for-days div{
+    background-image: url('../img/icons/icon_wire_sprite.png');
+    background-size: 521%;
+    float: left;
     margin: 5%;
     margin-top: 30px;
+    height: 73px;
+    width: 73px;
 }
+
+.icons-for-days div.icons-lightbulb {
+    background-position: 0 0;
+}
+
+.icons-for-days div.icons-pie {
+    background-position: 25% 0;
+}
+
+.icons-for-days div.icons-tablet {
+    background-position: 50% 0;
+}
+
+.icons-for-days div.icons-database {
+    background-position: 75% 0;
+}
+
+.icons-for-days div.icons-mobile {
+    background-position: 100% 0;
+}
+
 .no-bottom{
     padding-bottom: 0;
     margin-bottom: 0;
@@ -294,8 +321,9 @@ a.anchor {
         margin-top: 15px;
         line-height: 30px;
     }
-    .icons-for-days>img{
-        width: 50px;
+    .icons-for-days div{
+        width: 49px;
+        height: 49px;
         margin: 2%;
         margin-top: 0px;
     }
