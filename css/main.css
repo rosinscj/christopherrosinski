@@ -159,6 +159,8 @@ span.name-text{
 
 .icons-for-days div.icons-database {
     background-position: 75% 0;
+    height: 74px;
+    width: 74px;
 }
 
 .icons-for-days div.icons-mobile {
@@ -321,7 +323,7 @@ a.anchor {
         margin-top: 15px;
         line-height: 30px;
     }
-    .icons-for-days div{
+    .icons-for-days div, .icons-for-days div.icons-database {
         width: 49px;
         height: 49px;
         margin: 2%;
