@@ -191,7 +191,7 @@
                         window.location.hash = target;
                     });
 
-                    handleLinkClickTracking(e, 'Internal Link', e.target.closest('a').href);
+                    handleLinkClickTracking(e, 'Internal Link', e.target.closest('a').hash.substr(1));
                 });
 
                 $('a:not([href^="#"])').on('click', function (e) {
@@ -199,7 +199,6 @@
                 });
 
                 function handleLinkClickTracking(event, category, label) {
-                    console.log(category + ' ' + label);
                     ga('send', 'event', {
                         eventCategory: category,
                         eventAction: 'click',
